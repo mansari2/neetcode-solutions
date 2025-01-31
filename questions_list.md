@@ -1,6 +1,6 @@
 # List of Questions & Solutions
 
-A full list of the topics and questions covered in this repo (so far). **Solutions counter - 46/75**
+A full list of the topics and questions covered in this repo (so far). **Solutions counter - 66/75**
 
 ---
 
@@ -125,3 +125,11 @@ A full list of the topics and questions covered in this repo (so far). **Solutio
 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [counting_bits.py](bit_manipulation/counting_bits.py) |
 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [reverse_bits.py](bit_manipulation/reverse_bits.py) |
 | [Missing Number](https://leetcode.com/problems/missing-number/) | [missing_number.py](bit_manipulation/missing_number.py) |
+
+## [Graphs](graphs)
+| | |
+| --- | ----------- |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/description/) | [number_of_islands.py](graphs/number_of_islands.py) |
+| [Course Schedule](https://leetcode.com/problems/course-schedule/) | [course_schedule.py](graphs/course_schedule.py)
+| [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [pacific_atlantic_water_flow.py](graphs/pacific_atlantic_water_flow.py)
+| [Number of Connected components in undirected graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [number_of_connected_components_in_an_undirected_graph.py](graphs/number_of_connected_components_in_an_undirected_graph.py)
