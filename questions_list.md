@@ -133,3 +133,4 @@ A full list of the topics and questions covered in this repo (so far). **Solutio
 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [course_schedule.py](graphs/course_schedule.py)
 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [pacific_atlantic_water_flow.py](graphs/pacific_atlantic_water_flow.py)
 | [Number of Connected components in undirected graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [number_of_connected_components_in_an_undirected_graph.py](graphs/number_of_connected_components_in_an_undirected_graph.py)
+| [Word Ladder](https://leetcode.com/problems/word-ladder/) | [word_ladder.py](graphs/word_ladder.py)
