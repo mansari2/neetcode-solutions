@@ -5,6 +5,9 @@ from string import ascii_letters
 
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+        """ we want to find the shortest transformation sequence from beginWord to endWord. we add the list of words to the set
+        we can add the first word along with the level to the queue. we can then iterate over the word and change each character
+        and check if the new word is in the wordlist. if it is we can add it to the queue and increment the level. we can keep track"""
         wordlist = set(wordList)  # Convert list to set for O(1) lookups
         if endWord not in wordlist:  
             return 0  # If endWord is not in the wordList, no transformation is possible
