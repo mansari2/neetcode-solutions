@@ -1,0 +1,39 @@
+import multiprocessing
+class LogProcessor:
+    def __init__(self, k: int):
+        """Initialize the log processor with a time window k (in seconds)."""
+        self.heap = []
+        self.messages = {}
+    
+    def ingest_log(self, timestamp: int, message: str) -> None:
+        """Process an incoming log entry."""
+        # to handle dumplicate messages for timestamps
+        heapq.heappush(heap, (timestamp))
+        if timestamp in self.messages:
+            self.messages[timestamp].append(message)
+        else:
+            self.messages[timestamp] = [message]
+
+        
+    
+    def get_last_n_logs(self, n: int) -> List[Tuple[int, str]]:
+        """Return the last N logs sorted by timestamp."""
+        n_last_log_messages = []
+        n_last_log_timestamps = heapq.nlargest(n, self.heap)
+        for timestamp in n_last_log_timestamps:
+            try:
+                n_last_log_messages.append(self.messages[timestamp])
+            except ValueError:
+                logging.error("message not found" exec.info=True)
+
+def main(log_messages):
+    with multiprocessing.Pool() as pool:
+        pool.map(ingest_log, log_messages)
+
+
+"""
+Logs come out of order, a timestamp and a message
+do we want to handle duplicates?
+
+
+"""
